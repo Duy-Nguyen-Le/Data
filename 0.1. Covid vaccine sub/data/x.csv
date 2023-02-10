@@ -1,0 +1,73 @@
+first_vaccine,ges_group,id,bw_percentile_g,N,sum,rate
+AstraZeneca,41,AstraZeneca41,50-<75,1,1,100
+AstraZeneca,<34,AstraZeneca<34,<10,1,6,16.7
+AstraZeneca,<34,AstraZeneca<34,25-<50,2,6,33.3
+AstraZeneca,<34,AstraZeneca<34,50-<75,1,6,16.7
+AstraZeneca,<34,AstraZeneca<34,Stillbirth,1,6,16.7
+AstraZeneca,<34,AstraZeneca<34,Stillbirth,1,6,16.7
+AstraZeneca,34-<37,AstraZeneca34-<37,<10,2,22,9.1
+AstraZeneca,34-<37,AstraZeneca34-<37,10-<25,2,22,9.1
+AstraZeneca,34-<37,AstraZeneca34-<37,25-<50,6,22,27.3
+AstraZeneca,34-<37,AstraZeneca34-<37,50-<75,5,22,22.7
+AstraZeneca,34-<37,AstraZeneca34-<37,75-<90,2,22,9.1
+AstraZeneca,34-<37,AstraZeneca34-<37,>=90,5,22,22.7
+AstraZeneca,37-<38,AstraZeneca37-<38,<10,3,53,5.7
+AstraZeneca,37-<38,AstraZeneca37-<38,10-<25,4,53,7.5
+AstraZeneca,37-<38,AstraZeneca37-<38,25-<50,12,53,22.6
+AstraZeneca,37-<38,AstraZeneca37-<38,50-<75,13,53,24.5
+AstraZeneca,37-<38,AstraZeneca37-<38,75-<90,8,53,15.1
+AstraZeneca,37-<38,AstraZeneca37-<38,>=90,13,53,24.5
+AstraZeneca,38-<39,AstraZeneca38-<39,<10,7,175,4
+AstraZeneca,38-<39,AstraZeneca38-<39,10-<25,20,175,11.4
+AstraZeneca,38-<39,AstraZeneca38-<39,25-<50,39,175,22.3
+AstraZeneca,38-<39,AstraZeneca38-<39,50-<75,38,175,21.7
+AstraZeneca,38-<39,AstraZeneca38-<39,75-<90,50,175,28.6
+AstraZeneca,38-<39,AstraZeneca38-<39,>=90,21,175,12
+AstraZeneca,39-<40,AstraZeneca39-<40,<10,2,145,1.4
+AstraZeneca,39-<40,AstraZeneca39-<40,10-<25,14,145,9.7
+AstraZeneca,39-<40,AstraZeneca39-<40,25-<50,45,145,31
+AstraZeneca,39-<40,AstraZeneca39-<40,50-<75,43,145,29.7
+AstraZeneca,39-<40,AstraZeneca39-<40,75-<90,27,145,18.6
+AstraZeneca,39-<40,AstraZeneca39-<40,>=90,14,145,9.7
+AstraZeneca,40-<41,AstraZeneca40-<41,<10,1,39,2.6
+AstraZeneca,40-<41,AstraZeneca40-<41,10-<25,7,39,17.9
+AstraZeneca,40-<41,AstraZeneca40-<41,25-<50,10,39,25.6
+AstraZeneca,40-<41,AstraZeneca40-<41,50-<75,14,39,35.9
+AstraZeneca,40-<41,AstraZeneca40-<41,75-<90,6,39,15.4
+AstraZeneca,40-<41,AstraZeneca40-<41,>=90,1,39,2.6
+Pfizer BioNTech,41,Pfizer BioNTech41,25-<50,1,1,100
+Pfizer BioNTech,<34,Pfizer BioNTech<34,<10,1,8,12.5
+Pfizer BioNTech,<34,Pfizer BioNTech<34,25-<50,2,8,25
+Pfizer BioNTech,<34,Pfizer BioNTech<34,50-<75,1,8,12.5
+Pfizer BioNTech,<34,Pfizer BioNTech<34,75-<90,1,8,12.5
+Pfizer BioNTech,<34,Pfizer BioNTech<34,>=90,3,8,37.5
+Pfizer BioNTech,34-<37,Pfizer BioNTech34-<37,<10,6,26,23.1
+Pfizer BioNTech,34-<37,Pfizer BioNTech34-<37,10-<25,2,26,7.7
+Pfizer BioNTech,34-<37,Pfizer BioNTech34-<37,25-<50,10,26,38.5
+Pfizer BioNTech,34-<37,Pfizer BioNTech34-<37,50-<75,3,26,11.5
+Pfizer BioNTech,34-<37,Pfizer BioNTech34-<37,75-<90,3,26,11.5
+Pfizer BioNTech,34-<37,Pfizer BioNTech34-<37,>=90,2,26,7.7
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,<10,2,56,3.6
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,10-<25,7,56,12.5
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,25-<50,13,56,23.2
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,50-<75,21,56,37.5
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,75-<90,4,56,7.1
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,>=90,8,56,14.3
+Pfizer BioNTech,37-<38,Pfizer BioNTech37-<38,Stillbirth,1,56,1.8
+Pfizer BioNTech,38-<39,Pfizer BioNTech38-<39,<10,5,164,3
+Pfizer BioNTech,38-<39,Pfizer BioNTech38-<39,10-<25,16,164,9.8
+Pfizer BioNTech,38-<39,Pfizer BioNTech38-<39,25-<50,38,164,23.2
+Pfizer BioNTech,38-<39,Pfizer BioNTech38-<39,50-<75,41,164,25
+Pfizer BioNTech,38-<39,Pfizer BioNTech38-<39,75-<90,41,164,25
+Pfizer BioNTech,38-<39,Pfizer BioNTech38-<39,>=90,23,164,14
+Pfizer BioNTech,39-<40,Pfizer BioNTech39-<40,<10,12,203,5.9
+Pfizer BioNTech,39-<40,Pfizer BioNTech39-<40,10-<25,26,203,12.8
+Pfizer BioNTech,39-<40,Pfizer BioNTech39-<40,25-<50,53,203,26.1
+Pfizer BioNTech,39-<40,Pfizer BioNTech39-<40,50-<75,49,203,24.1
+Pfizer BioNTech,39-<40,Pfizer BioNTech39-<40,75-<90,41,203,20.2
+Pfizer BioNTech,39-<40,Pfizer BioNTech39-<40,>=90,22,203,10.8
+Pfizer BioNTech,40-<41,Pfizer BioNTech40-<41,10-<25,8,55,14.5
+Pfizer BioNTech,40-<41,Pfizer BioNTech40-<41,25-<50,11,55,20
+Pfizer BioNTech,40-<41,Pfizer BioNTech40-<41,50-<75,23,55,41.8
+Pfizer BioNTech,40-<41,Pfizer BioNTech40-<41,75-<90,9,55,16.4
+Pfizer BioNTech,40-<41,Pfizer BioNTech40-<41,>=90,4,55,7.3

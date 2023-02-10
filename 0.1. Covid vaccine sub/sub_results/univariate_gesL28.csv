@@ -1,0 +1,11 @@
+,variables,coefficient,lower,upper,p-value,,
+1,age,1.381496308,1.055264427,1.808581811,0.018705573,,1.381 [1.055;1.809]; 0.019
+2,"relevel(factor(type_of_preg), ref = ""Natural"")Assisted",18.673913,1.677180287,207.9174371,0.01728863,,18.674 [1.677;207.917]; 0.017
+3,vaccinationOnly 1 dose,3.57E-08,0,Inf,0.995292206,,
+4,"relevel(factor(first_vaccine), ref = ""Pfizer BioNTech"")AstraZeneca",43248052.4,0,Inf,0.993407334,,
+5,gest_at_vaccine,0.455800724,0.230370405,0.901827211,0.024022728,,0.456 [0.23;0.902]; 0.024
+6,mother_covid_21,3.42E-07,0,Inf,0.994276151,,
+7,gest_hbp_a,2.72E-06,0,Inf,0.996160645,,
+8,gest_hbp_b,7.43E-06,0,Inf,0.995874424,,
+9,gest_diabetes_a,2.72E-06,0,Inf,0.996160645,,
+10,gest_diabetes_b1,1.19E-07,0,Inf,0.995233416,,
