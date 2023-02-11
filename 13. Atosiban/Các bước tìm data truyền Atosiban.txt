@@ -1,0 +1,105 @@
+SMART:
+
+1- Tìm Atosiban trong bảng dbo.ICProducts 
+với product name "Truyền Atosiban" (Copy ra excel tìm cho lẹ)
+
+=> Atosiban: ICProductID 41 
+		 ICProductGroupID 56
+
+2- Tìm trong bảng dbo.ARInvoiceItems với FK_ICProductID = 41
+	(WHERE FK_ICProductID = 41)
+
+=> ARInvoiceItemID: 26,302,620,625,635,925,
+			  1185,1287,1295,1587,1635,1801,1806,1811,1839,
+			  1879,2250,2288,2307,2312,2517,2780,3229,3480,
+			  3609,3988,4198,4277,4315,4384,4400,4430,4709,
+			  5061,5434,5497,5814,6101,6137,6263,6451,6462,
+			  6488,6492,6532,6878,6940,7223,7318,7415,7457,
+			  7808,8244,8374,8511,8616,8631,9033,9151,9252,
+			  9254,9293,9349,9432,9521,9660,9802,9935,11530,
+			  11717
+
+3- Tìm trong bảng ARInvoices với các InvoiceItemID ở trên
+
+=> Mã bn FK_MEPatientID:
+
+14
+144
+252
+238
+254
+333
+362
+368
+372
+405
+57
+53
+28
+20
+163
+1
+208
+63
+32
+103
+568
+220
+427
+664
+176
+499
+45
+122
+368
+536
+708
+49
+597
+101
+169
+668
+527
+391
+435
+804
+823
+890
+823
+570
+835
+886
+858
+1027
+902
+244
+712
+1098
+459
+940
+1437
+1126
+759
+1168
+3180
+3192
+485
+3188
+3210
+2045
+3224
+2245
+3274
+3294
+714
+2174
+
+
+======================================================
+TINA
+
+Dùng công cụ search trong pgAdmin
+
+Search từ khoá Atosiban => nằm trong bảng danh mục hm_phoitru
+
+Tìm trong bảng hm_phoitru các ca atosiban = 1

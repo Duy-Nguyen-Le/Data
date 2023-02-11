@@ -1,0 +1,85 @@
+--Bao cao thang phoi tru SELECT DISTINCT
+SELECT
+	a1.mabn,
+	f.ten as source,
+	b.ten as bs_chidinh,
+	e.stt,
+	a5.tennn,
+	a1.namsinh,
+	e2.ngay,
+	to_date(to_char(e.ngaycp, 'mm/dd/yyyy'), 'mm/dd/yyyy'),
+	a.ivm,
+	a.id_trigger,
+	a.id_nguontrung,
+	c.ten as egg_source,
+	a.id_nguontinhtrung,
+	d.ten as sperm_source,
+	a.chuandoanvo,
+	a.chuandoanchong,
+	a.inf_duration,
+	a.para,
+	a.chieucao,
+	a.cannang,
+	a.amh_vo,
+	a.sockor,
+	a.e2_trigger,
+	a.p4_trigger,
+	a.nmtc,
+	a.nang12,
+	a.nang14,
+	a.lh_vo,
+	a.afc_vo,
+	a.fsh_trigger,
+	a.lh_trigger,
+	a.ngayck,
+	a.id_thuoc1,
+	a.lieudau1,
+	a.tongdv1,
+	a.id_thuoc2,
+	a.lieudau2,
+	a.tongdv2,
+	a.id_gnrha,
+	e.atosiban,
+	e.id_protocol,
+	a6.ten as protocol,
+	e.nmtc,
+	e.chuyen,
+	e.emb1t,
+	e.emb2t,
+	e.emb3t,
+	e.dfr,
+	e.beta,
+	h1.ten AS lydo,
+	h.sotuithai,
+	h.kq_ngaysinh,
+	h.kq_tuanthaisinh,
+	h.kq_sobetrai,
+	h.kq_sobegai,
+	h.kq_cannang_trai AS bw1,
+	h.kq_cannang_gai AS bw2
+FROM
+	medibv.btdbn a1
+	INNER JOIN medilab.hm_nangnoan a ON a1.mabn = a.mabn
+	INNER JOIN medilab.hm_phoituoi e2 ON a.id = e2.id_nangnoan
+	INNER JOIN medilab.hm_phoitru e ON e2.id = e.id_phoituoi --Danh mục hoặc bảng phụ
+	LEFT JOIN medibv.btdtt a2 ON a1.matt = a2.matt
+	LEFT JOIN medilab.hm_dmbacsi b ON a.id_bstuvan = b.id
+	LEFT JOIN medilab.hm_dmnguontrung c ON a.id_nguontrung = c.id
+	LEFT JOIN medilab.hm_dmnguontt d ON a.id_nguontinhtrung = d.id
+	LEFT JOIN medilab.hm_dmsource f ON a.id_source = f.id
+	LEFT JOIN medilab.hm_dmbacsi g ON e.id_bscp = g.id
+	LEFT JOIN medilab.hm_ttkhamthai h ON h.id_phoitru = e.id
+	LEFT JOIN medibv.kt_lydostop h1 ON h.stop_lydo = h1.id
+	INNER JOIN medibv.btdnn a5 on a1.mann = a5.mann
+	INNER JOIN medilab.hm_dmprotocol a6 on e.id_protocol = a6.id
+WHERE
+	to_date(to_char(e.ngaycp, 'mm/dd/yyyy'), 'mm/dd/yyyy') BETWEEN to_date('01/01/2014', 'mm/dd/yyyy')
+	AND to_date('01/01/2022', 'mm/dd/yyyy')
+	--AND a.chinhanh in(1, 2, 6)
+	--  and a.mabn_cho <= 0
+	--   and a.ivm = 0
+	and e.atosiban = '1'
+	and a.ivm = 0
+	and a.id_nguontrung <> 2
+	and a.id_nguontrung <> 3
+	and a.id_nguontrung <> 4
